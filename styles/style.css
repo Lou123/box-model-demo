@@ -10,4 +10,4 @@ a {
 }
 /* more recent takes precedence */
 p { color: magenta; }
-p { color: yellow;}
+p { color: black;}
