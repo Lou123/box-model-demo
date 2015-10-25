@@ -1,18 +1,13 @@
-h1:hover { color: purple; }
-a:visited { text-decoration: none; }
-header {
-  text-align: center;
-  width: 75%;
-  margin: auto;
+Header img {
+  width: 33%;
 }
-article {
-  width: 60%
-  margin: auto;
+/* more specific takes precedence*/
+nav a {
+  text decoration: none
 }
-p::first-letter {
-  font-size: 1.5em;
+a {
+  text-decoration: line-through;
 }
-footer {
-  border: 2px solid magenta;
-  border-radius: 25px;
-}
+/* more recent takes precedence */
+p { color: magenta; }
+p { color: orange;}
